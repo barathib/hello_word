@@ -1,0 +1,40 @@
+import sys
+x = raw_input('What is your name?')
+print 'Your name is ' + x
+print "=========================================================="
+
+a = input('enter the first number?')
+b = input('enter the secound number?')
+c=0
+c = a + b
+print "Value of c is ", c
+c += a
+print "Value of c is ", c
+c *= a
+print "Value of c is ", c 
+c /= a 
+print "Value of c is ", c
+print "=========================================================="
+
+data = input('you will select number')
+if (data == 50):
+   print "number is match :",data
+else:
+    print "number is  not match"
+print "=========================================================="
+
+
+namelist= ['barathi', 'bala', 'kumar', 'gobi'];
+numberlist = [1, 2, 3, 4, 5, 6, 7 ];
+
+print "namelist: ", namelist[2]
+print "numberlist: ", numberlist[2:5]
+print "=========================================================="
+
+
+tup1 = ('barathi', 'bala', 720028, 3766);
+tup2 = (1, 2, 3, 4, 5, 6, 7 );
+
+print "tup1: ", tup1[0]
+print "tup2: ", tup2[1:4]
+print "=========================================================="
